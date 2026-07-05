@@ -1,0 +1,25 @@
+{
+  "name": "saucedemo-e2e-tests",
+  "version": "1.0.0",
+  "description": "E2E automated test suite for SauceDemo using Playwright and Page Object Model (POM) pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "show-report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "qa-automation",
+    "page-object-model",
+    "saucedemo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.0"
+  }
+}
