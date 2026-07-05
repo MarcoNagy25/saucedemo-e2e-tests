@@ -72,3 +72,4 @@ test.describe('Inventory Catalog & Cart Tests', () => {
     expect(names).toEqual(sortedNames);
   });
 });
+
